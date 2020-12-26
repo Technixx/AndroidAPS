@@ -35,6 +35,7 @@ public class RileyLinkServiceData {
     public RileyLinkFirmwareVersion firmwareVersion; // here we have "compatibility level" version
     public RileyLinkTargetFrequency rileyLinkTargetFrequency;
     public String rileylinkAddress;
+    public String rileyLinkName;
     long lastTuneUpTime = 0L;
     public Double lastGoodFrequency;
 
@@ -42,8 +43,6 @@ public class RileyLinkServiceData {
     public String versionBLE113;
     // radio version
     public String versionCC110;
-
-    public Integer batteryLevel;
 
     public RileyLinkTargetDevice targetDevice;
 
